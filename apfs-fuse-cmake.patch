@@ -1,0 +1,10 @@
+--- apfs-fuse-66b86bd525e8cb90f9012543be89b1f092b75cf3/CMakeLists.txt.orig	2023-03-12 19:21:57.000000000 +0100
++++ apfs-fuse-66b86bd525e8cb90f9012543be89b1f092b75cf3/CMakeLists.txt	2023-03-19 17:05:31.399264479 +0100
+@@ -8,7 +8,6 @@ option(USE_FUSE3 "Use the FUSE 3 library
+ 
+ set(CMAKE_C_STANDARD 99)
+ set(CMAKE_CXX_STANDARD 11)
+-set(CMAKE_BUILD_TYPE Release)
+ 
+ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra")
+ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
